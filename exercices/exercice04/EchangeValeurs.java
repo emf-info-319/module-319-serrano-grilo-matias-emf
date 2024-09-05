@@ -7,7 +7,7 @@ public class EchangeValeurs {
         System.out.println("Le contenu de la variable1 est " + variable1);
         System.out.println("Le contenu de la variable2 est " + variable2);
         System.out.println("...traitement...");
-        int variable3=variable1;
+        int variable3 = variable1;
         variable1 = variable2;
         variable2 = variable3;
         System.out.println("Le contenu de la variable1 est " + variable1);
