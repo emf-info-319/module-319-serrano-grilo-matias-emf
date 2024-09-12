@@ -21,6 +21,6 @@ public class ExerciceBoucles2 {
         do{System.out.println(i);
             i--;
         }while(i>0);
-        System.out.println("Décollage");
+        System.out.println("Décollage !!");
     }
 }
