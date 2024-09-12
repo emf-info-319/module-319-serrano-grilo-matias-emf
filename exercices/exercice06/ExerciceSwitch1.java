@@ -2,7 +2,7 @@ package exercices.exercice06;
 
 public class ExerciceSwitch1 {
     public static void main(String[] args) {
-        int noteDuModule = 4;
+        int noteDuModule = 6;
         switch (noteDuModule){
         case 1 :
         System.out.println("Travail non rendu");
@@ -21,6 +21,9 @@ public class ExerciceSwitch1 {
         break;
         case 6 :
         System.out.println("Très bien");
+        break;
+        default:
+        System.out.println("note non valable");
         break;
         }
     }
