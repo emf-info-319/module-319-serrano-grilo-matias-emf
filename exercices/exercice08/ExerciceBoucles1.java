@@ -21,16 +21,16 @@ public class ExerciceBoucles1 {
         System.out.println(" ");
         for (i = 1; i <= 5; i++) {
             if (i == 3) {
-            } else {
-                System.out.println("Boucle for, itération " + i);
+                continue;//il va continuer sans faire l'action
             }
+            System.out.println("Boucle for, itération " + i);
         }
         System.out.println(" ");
-        i=1;
+        i = 1;
         while (i <= 5) {
             System.out.println("Boucle while, itération " + i);
             i++;
-            if (i==4) {
+            if (i == 4) {
                 break;
             }
         }
