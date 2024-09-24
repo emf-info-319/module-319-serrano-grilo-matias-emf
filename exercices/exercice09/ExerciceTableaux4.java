@@ -1,3 +1,4 @@
+package exercices.exercice09;
 public class ExerciceTableaux4 {
     public static void main(String[] args) {
         int NbDeBase=17;

@@ -1,3 +1,4 @@
+package exercices.exercice09;
 public class ExerciceTableaux2 {
     public final static int min = 1;
     public final static int max = 6;
