@@ -13,6 +13,7 @@ public class ExerciceTableaux3 {
         for(int NbCellule=0;NbCellule<tab.length;NbCellule++){
             NoteAdd=NoteAdd+tab[NbCellule];
         }
-        System.out.println("La moyenne de classe est de "+NoteAdd/10);
+        float moyenne=(float)NoteAdd/tab.length;
+        System.out.println("La moyenne de classe est de "+moyenne);
     }
 }
