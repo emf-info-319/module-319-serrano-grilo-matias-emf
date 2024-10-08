@@ -2,7 +2,7 @@ package devoirs.devoir04;
 
 public class devoir04 {
     public static void main(String[] args) {
-        int year = 2024;
+        int year = 2023;
         int month = 2;
         int day = 29;
         System.out.println("date entrée est le " + day + "." + month + "." + year);
