@@ -1,10 +1,11 @@
 public class test {
     public static void main(String[] args) {
-    int compteur =10;
-    while (compteur>0) 
-    System.out.println(compteur--);{
-        
+        for (int i = 0; i < 6; i++) {
+            if (i == 3) {
+                continue;
+            }
+            System.out.println(i);
+        }
     }
-    }
-    
+
 }
